@@ -15,23 +15,23 @@ const App = () => {
         
         </Route>
 
-        <Route path='/rilakkuma'>
-          <Pages.Rilakkuma />
+        <Route path='/about'>
+          <Pages.About />
           <Header />
         </Route>
 
-        <Route path='/korilakkuma'>
-          <Pages.Korilakkuma />
+        <Route path='/experience'>
+          <Pages.Experience />
           <Header />
         </Route>
 
-        <Route path='/kiiroitori'>
-          <Pages.Kiiroitori />
+        <Route path='/projects'>
+          <Pages.Projects />
           <Header />
         </Route>
 
-        <Route path='/chairoikoguma'>
-          <Pages.Chairoikoguma />
+        <Route path='/skills'>
+          <Pages.Skills />
           <Header />
         </Route>
 

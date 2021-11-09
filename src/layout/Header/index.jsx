@@ -7,18 +7,14 @@ export const Header = () => {
     return(
         
         <nav>
-            <NavLink className="kumaFlix" exact to='/'>Kumaflix</NavLink>
             <NavLink exact to='/'>Home</NavLink>
             <BackButton className="backButton" />
-            <div className="dropdown">
-                <button className="dropbtn">Dropdown</button>
-                <div className="dropdown-content">
-                <NavLink to='/rilakkuma'>Rilakkuma</NavLink>
-                <NavLink to='/korilakkuma'>Korilakkuma</NavLink>
-                <NavLink to='/kiiroitori'>Kiiroitori</NavLink>
-                <NavLink to='/chairoikoguma'>Chairoikoguma</NavLink>
-                </div>
-            </div>
+            <NavLink to='/about'>About</NavLink>
+            <NavLink to='/experience'>Experience</NavLink>
+            <NavLink to='/projects'>Projects</NavLink>
+            <NavLink to='/skills'>Skills</NavLink>
+              
+            
         </nav>
     )
 };
