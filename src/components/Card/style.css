@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.card {
+    height: 300px;
+    width: 300px;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.card:hover {
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+
+.card.large {
+    height: 300px;
+    width: 300px;
+}
