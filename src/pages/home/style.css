@@ -1,0 +1,97 @@
+html {
+    overscroll-behavior: none
+}
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.portfolioContainer{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titleContainer{
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: blue;
+
+}
+
+.portfolioTitle{
+    font-family: "FinkHeavy";
+    text-align: center;
+    color: white;
+
+}
+
+.contentContainer{
+    border: 5px solid;
+    margin: auto;
+    width: 80%;
+    height: 70%;
+    padding: 10px;
+    background-color: green;
+  
+}
+
+.linksContainer{
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: purple;
+}
+
+.introContainer{
+    background-color: yellow;
+    width: 75%;
+    margin: auto;
+    height: 15%;
+}
+
+.skillsContainer{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "Skills Qualifications Qualifications"
+      "Skills Qualifications Qualifications"
+      "Projects Qualifications Qualifications";
+    width: 75%;
+    height: calc(75% - 10px);
+    margin: auto;
+
+
+}
+.skillsBox{
+    background-color: red;
+    grid-area: Skills; 
+ 
+}
+
+.qualificationsBox{
+    background-color: orange;
+    grid-area: Qualifications;
+ 
+}
+
+.projectsBox{
+    background-color: lightblue;
+    grid-area: Projects;
+ 
+}
+
+.backgroundContainer {
+    display: flex;
+    background-color: blue;
+    width: 25%;
+    height: calc(5% - 10px);
+    float: right;
+}
