@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import SocialLinks  from '../../components/SocialLinks';
 
 
 export const Home = () => {
@@ -27,7 +28,7 @@ export const Home = () => {
 <div className= "portfolioContainer"> Portfolio Container
     <div className="titleContainer"> <h1 className='portfolioTitle'>Title container</h1></div>
     <div className="contentContainer"> Content Container
-        <div className="linksContainer">Links Container</div>
+        <div className="linksContainer"> <SocialLinks/> </div>
         <div className="introContainer">Intro Container</div>
     <div className="skillsContainer">
         <div className="skillsBox">Skills</div>
